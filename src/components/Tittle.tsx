@@ -1,5 +1,3 @@
-import React from "react";
-
 const Tittle = () => {
   return (
     <header className="text-left mb-6 flex flex-col gap-3">

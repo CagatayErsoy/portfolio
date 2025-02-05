@@ -1,4 +1,3 @@
-import React from "react";
 import NowCard from "./NowCard";
 import nowData from "@/data/nowData";
 
