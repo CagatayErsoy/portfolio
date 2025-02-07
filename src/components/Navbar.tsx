@@ -1,21 +1,28 @@
+import { Link } from "react-scroll";
+
 const sections = [
   { id: "about", label: "About" },
-  { id: "now", label: "What I Am Cooking Now" },
   { id: "experience", label: "Experience" },
-  { id: "education", label: "Education" },
+  { id: "now", label: "What I Am Cooking Now" },
 ];
 
 const Navbar = () => {
   return (
     <nav className="w-full flex flex-col gap-3 mt-4">
       {sections.map((section) => (
-        <a
+        <Link
           key={section.id}
-          href={`#${section.id}`}
-          className="text-gray-400 hover:text-white transition-all text-lg"
+          to={section.id}
+          className="text-gray-400 hover:text-white transition-all text-lg cursor-pointer"
+          smooth={true}
+          activeClass="active"
+          spy={true}
+          duration={500}
+          offset={-50}
+          containerId="content"
         >
           {section.label}
-        </a>
+        </Link>
       ))}
     </nav>
   );
