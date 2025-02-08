@@ -1,5 +1,5 @@
 import { Link } from "react-scroll";
-
+import useActiveSection from "@/hooks/useActiveSection";
 const sections = [
   { id: "about", label: "About" },
   { id: "experience", label: "Experience" },
@@ -7,16 +7,19 @@ const sections = [
 ];
 
 const Navbar = () => {
+  const activeSection = useActiveSection(sections.map((s) => s.id));
   return (
-    <nav className="w-full flex flex-col gap-3 mt-4">
+    <nav className="w-full md:flex hidden flex-col gap-3 mt-4 ">
       {sections.map((section) => (
         <Link
           key={section.id}
           to={section.id}
-          className="text-gray-400 hover:text-white transition-all text-lg cursor-pointer"
+          className={`text-gray-400  transition-all text-lg cursor-pointer ${
+            activeSection === section.id ? "text-white font-bold" : ""
+          }`}
           smooth={true}
-          activeClass="active"
           spy={true}
+          activeClass="text-white font-bold text-lg"
           duration={500}
           offset={-50}
           containerId="content"
