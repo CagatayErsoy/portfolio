@@ -1,5 +1,3 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-
 interface NowCardProps {
   name: string;
   description: string;
@@ -9,24 +7,26 @@ interface NowCardProps {
 
 const NowCard = ({ name, description, imageUrl, website }: NowCardProps) => {
   return (
-    <Card className="bg-slate-900 text-white border border-gray-700 shadow-md p-4 flex items-center gap-6">
+    <div className="relative bg-zinc-900 text-foreground shadow-md p-4 flex items-center gap-6 transition-all duration-300 rounded-lg group before:absolute before:inset-0 before:bg-gradient-to-r before:from-transparent before:to-red-900/30 before:opacity-0 hover:before:opacity-100 hover:shadow-lg hover:scale-[1.02] overflow-hidden">
       {/* Clickable Project Screenshot */}
       <a href={website} target="_blank" rel="noopener noreferrer">
         <img
           src={imageUrl}
           alt={name}
-          className="w-32 h-32 rounded-lg object-cover border border-gray-600 shadow-sm hover:scale-105 transition-transform"
+          className="w-28 h-28 rounded-lg object-cover shadow-sm brightness-75 transition-all duration-300 group-hover:brightness-100"
         />
       </a>
 
       {/* Project Info */}
-      <CardContent className="flex-1">
-        <CardHeader className="p-0">
-          <CardTitle className="text-lg font-semibold">{name}</CardTitle>
-        </CardHeader>
-        <p className="text-sm text-gray-300">{description}</p>
-      </CardContent>
-    </Card>
+      <div className="flex-1 relative z-10">
+        <h3 className="text-lg font-semibold text-gray-500 transition-all duration-300 group-hover:text-gray-200">
+          {name}
+        </h3>
+        <p className="text-sm text-gray-600 transition-all duration-300 group-hover:text-gray-300">
+          {description}
+        </p>
+      </div>
+    </div>
   );
 };
 
