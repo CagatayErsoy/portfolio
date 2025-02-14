@@ -1,31 +1,31 @@
 const nowData = [
   {
-    name: "EartlyGoods",
+    name: "Reqora",
     description:
-      "A social media app that showcases all businesses selling organic, eco-friendly products in our town (pilot: SF).",
-    imageUrl: "eartlygoods.png", // Place your actual screenshot here
-    website: "https://eartlygoods.com",
-  },
-  {
-    name: "WriteMyMail",
-    description:
-      "A Chrome extension that enhances email writing by fixing and improving messages using AI.",
-    imageUrl: "eartlygoods.png",
-    website: "https://writemymail.com",
-  },
-  {
-    name: "BrainDump",
-    description:
-      "A small productivity tool for organizing thoughts and tasks efficiently.",
-    imageUrl: "eartlygoods.png",
-    website: "https://braindump.com",
+      "An AI-driven platform that transforms e-commerce returns into profitable assets by restocking pristine items, selling on alternative platforms, and handling claims for fraudulent returns.",
+    imageUrl: "reqora.png", // Update with the actual screenshot
+    website: "https://www.reqora.com",
   },
   {
     name: "LindoFlex",
     description:
-      "Leading frontend architecture and development for a scalable, feature-rich platform using React, Tailwind CSS, and Redux.",
-    imageUrl: "eartlygoods.png",
+      "A website builder designed for small businesses, offering easy-to-use customization tools to create professional online presences without coding knowledge.",
+    imageUrl: "lindoflex.png", // Update with the actual screenshot
     website: "https://lindoflex.com",
+  },
+  {
+    name: "EartlyGoods",
+    description:
+      "A social media app that showcases all businesses selling organic, eco-friendly products in our town (pilot: SF).",
+    imageUrl: "eartlygoods.png", // Place your actual screenshot here
+    website: "https://earthly-goods.replit.app/",
+  },
+  {
+    name: "AIEmailHelper",
+    description:
+      "A Chrome extension that enhances email writing by fixing and improving messages using AI.",
+    imageUrl: "aiemailhelper.png", // Update with the actual screenshot
+    website: "https://github.com/CagatayErsoy/emailHelper",
   },
 ];
 

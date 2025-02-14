@@ -4,7 +4,7 @@ import useActiveSection from "@/hooks/useActiveSection";
 const sections = [
   { id: "about", label: "About" },
   { id: "experience", label: "Experience" },
-  { id: "now", label: "What I Am Cooking Now" },
+  { id: "now", label: "Projects" },
 ];
 
 const Navbar = () => {

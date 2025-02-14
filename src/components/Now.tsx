@@ -3,8 +3,8 @@ import nowData from "@/data/nowData";
 
 const Now = () => {
   return (
-    <div className="text-4xl space-y-6">
-      <h3 className="mb-4 font-bold">What I am working on now</h3>
+    <div className="text-2xl space-y-6">
+      <h3 className="mb-4 font-bold ml-6">Projects</h3>
       {nowData.map((project, index) => (
         <NowCard key={index} {...project} />
       ))}

@@ -14,9 +14,9 @@ const ExperienceCard = ({
   techStack,
 }: ExperienceCardProps) => {
   return (
-    <div className="grid grid-cols-[1fr_3fr] gap-6 items-start p-4 transition-all duration-300 hover:bg-zinc-800 hover:shadow-lg hover:rounded-lg group ">
-      {/* Left - Date */}
-      <div className="text-gray-500 text-sm font-semibold transition-all duration-300 group-hover:text-gray-300">
+    <div className="p-4 transition-all duration-300 hover:bg-zinc-800 hover:shadow-lg hover:rounded-lg group flex flex-col gap-3 sm:grid sm:grid-cols-[1fr_3fr]  items-start">
+      {/* Date - Moves to top on mobile */}
+      <div className="text-gray-500 text-sm font-semibold transition-all duration-300 group-hover:text-gray-300 sm:order-none order-first">
         {period}
       </div>
 

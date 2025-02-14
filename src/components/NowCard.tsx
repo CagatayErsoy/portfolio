@@ -7,13 +7,13 @@ interface NowCardProps {
 
 const NowCard = ({ name, description, imageUrl, website }: NowCardProps) => {
   return (
-    <div className="relative bg-zinc-900 text-foreground shadow-md p-4 flex items-center gap-6 transition-all duration-300 rounded-lg group before:absolute before:inset-0 before:bg-gradient-to-r before:from-transparent before:to-red-900/30 before:opacity-0 hover:before:opacity-100 hover:shadow-lg hover:scale-[1.02] overflow-hidden">
+    <div className="relative bg-zinc-900 text-foreground shadow-md p-6 flex lg:flex-row flex-col items-center  gap-6 transition-all duration-300 rounded-lg group before:absolute before:inset-0 before:bg-gradient-to-r before:from-transparent before:to-red-900/30 before:opacity-0 hover:before:opacity-100 hover:shadow-lg hover:scale-[1.02] overflow-hidden">
       {/* Clickable Project Screenshot */}
       <a href={website} target="_blank" rel="noopener noreferrer">
         <img
           src={imageUrl}
           alt={name}
-          className="w-28 h-28 rounded-lg object-cover shadow-sm brightness-75 transition-all duration-300 group-hover:brightness-100"
+          className="w-48 h-28 rounded-lg object-cover shadow-sm brightness-75 transition-all duration-300 group-hover:brightness-100"
         />
       </a>
 

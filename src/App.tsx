@@ -23,13 +23,13 @@ function App() {
 
   return (
     <div
-      className="md:flex flex-col bg-zinc-900 md:h-screen h-full w-full text-gray-300 font-nunito overflow-hidden justify-end "
+      className="md:flex flex-col bg-zinc-900 md:h-screen h-full w-full text-gray-300 font-nunito overflow-hidden justify-end md-8 lg-py-2"
       style={{
         background: `radial-gradient(circle at ${mouseX}px ${mouseY}px, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.8))`,
       }}
     >
       {/* Sidebar (Fixed) */}
-      <div className="lg:w-2/5 sm:w-full md:1/2 w-full flex flex-col gap-10 lg:fixed md:fixed relative top-0 left-0 h-full justify-around xs md:py-20 md:px-32 p-10 ">
+      <div className="lg:w-2/5 sm:w-full md:1/2 w-full flex flex-col gap-10 lg:fixed  relative top-0 left-0 h-full justify-around xs md:py-20 md:px-32 p-10 ">
         <Tittle />
         <Navbar />
         <SocialMedia />
@@ -38,7 +38,7 @@ function App() {
       {/* ✅ Scrollable Content Section */}
       <div
         id="content"
-        className="lg:w-3/5 sm:w-full md:1/2 w-full flex flex-col gap-10 h-full overflow-y-auto scrollbar-hide py-20 px-20 ml-auto"
+        className="lg:w-3/5 sm:w-full md:1/2 w-full flex flex-col gap-10 h-full overflow-y-auto scrollbar-hide lg:py-20 px-5 lg:px-20 ml-auto"
       >
         <section id="about">
           <Summary />
