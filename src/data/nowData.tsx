@@ -14,6 +14,13 @@ const nowData = [
     website: "https://lindoflex.com",
   },
   {
+    name: "WebDesktop",
+    description:
+      "My older portfolio designed like a desktop environment on the web. Bored of this portfolio? Visit WebDesktop—there's even a snake game in it!",
+    imageUrl: "webdesktop.png", // Update with the actual screenshot
+    website: "https://your-webdesktop-url.com", // Replace with actual link
+  },
+  {
     name: "EartlyGoods",
     description:
       "A social media app that showcases all businesses selling organic, eco-friendly products in our town (pilot: SF).",

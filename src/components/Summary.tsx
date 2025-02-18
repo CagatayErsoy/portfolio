@@ -39,10 +39,11 @@ const Summary = () => {
           improve strategy and precision. I’ve also recently picked up learning
           the <Highlight>guitar</Highlight>, adding yet another layer to my
           problem-solving <Highlight>adventures</Highlight> — turns out,
-          <Highlight>debugging </Highlight> code and mastering chords share more
-          in common than you’d think. Whether it’s optimizing a UI, refining a
-          gameplay strategy, or nailing that elusive chord progression, I’m
-          always eager to <Highlight>push my limits </Highlight>, take on{" "}
+          <Highlight> debugging </Highlight> code and mastering chords share
+          more in common than you’d think. Whether it’s optimizing a UI,
+          refining a gameplay strategy, or nailing that elusive chord
+          progression, I’m always eager to{" "}
+          <Highlight>push my limits </Highlight>, take on{" "}
           <Highlight>challenges</Highlight>, and embrace{" "}
           <Highlight>creativity</Highlight> in everything I do.
         </p>

@@ -10,7 +10,7 @@ const Title = () => {
       </h3>
 
       {/* Quote / Description */}
-      <p className="text-gray-400 text-lg italic lg:w-1/2">
+      <p className="text-gray-400 text-lg italic lg:w-[11rem]">
         "I turn ideas into sleek, engaging web interfaces—one pixel at a time."
       </p>
 

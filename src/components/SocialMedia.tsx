@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaInstagram, FaFileAlt } from "react-icons/fa";
 import { SiStackblitz } from "react-icons/si";
 
 const socialLinks = [
@@ -22,18 +22,23 @@ const socialLinks = [
     icon: <FaInstagram />,
     url: "https://instagram.com/your_instagram",
   },
+  {
+    name: "Resume",
+    icon: <FaFileAlt />,
+    url: "https://drive.google.com/file/d/1V82WN52FqDw6zLtsECVlF4zdzoTwSAA8/view?usp=sharing",
+  },
 ];
 
 const SocialMedia = () => {
   return (
-    <div className="flex space-x-4">
+    <div className="flex space-x-4  ">
       {socialLinks.map((link, index) => (
         <a
           key={index}
           href={link.url}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-gray-600 hover:text-blue-500 transition-all text-2xl"
+          className="text-gray-600 hover:text-accent-foreground transition-all text-2xl"
           aria-label={link.name}
         >
           {link.icon}

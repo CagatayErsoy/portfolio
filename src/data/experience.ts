@@ -13,6 +13,7 @@ const experience = [
       "MongoDB",
       "SQL",
       "GitHub Workflows",
+      "Figma",
     ],
   },
   {
@@ -21,7 +22,15 @@ const experience = [
     period: "March 2024 - Oct 2024",
     description:
       "Implemented new front-end features using React, Redux, TypeScript, and Material UI, improving performance and responsiveness. Optimized React components and state management, increasing performance by 30%. Conducted code reviews to enhance code quality, reducing bug occurrences by 15%. Gathered and implemented user feedback to enhance overall product satisfaction.",
-    techStack: ["React", "Redux", "TypeScript", "Material UI"],
+    techStack: [
+      "React",
+      "Redux",
+      "TypeScript",
+      "Material UI",
+      "Python",
+      "Django",
+      "PostgreSQL",
+    ],
   },
   {
     company: "Tento",
@@ -37,6 +46,8 @@ const experience = [
       "SQL",
       "AWS Lambda",
       "GitHub Actions",
+      "Express.js",
+      "Node.js",
     ],
   },
   {
@@ -53,6 +64,7 @@ const experience = [
       "Express.js",
       "SQL",
       "MongoDB",
+      "Angular Material",
     ],
   },
   {
@@ -61,7 +73,7 @@ const experience = [
     period: "Jan 2021 - May 2022",
     description:
       "Designed and developed interactive React UI components to improve user engagement. Translated Figma designs into fully responsive interfaces, ensuring design consistency. Conducted code reviews to boost application stability by 20% and implemented accessibility improvements that enhanced usability by 80%.",
-    techStack: ["React", "Figma", "CSS", "JavaScript"],
+    techStack: ["React", "Figma", "CSS", "JavaScript", "Airtable"],
   },
 ];
 
