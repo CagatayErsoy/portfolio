@@ -18,7 +18,7 @@ const nowData = [
     description:
       "My older portfolio designed like a desktop environment on the web. Bored of this portfolio? Visit WebDesktop—there's even a snake game in it!",
     imageUrl: "webdesktop.png", // Update with the actual screenshot
-    website: "https://your-webdesktop-url.com", // Replace with actual link
+    website: "https://webdesktop.dev", // Replace with actual link
   },
   {
     name: "EartlyGoods",

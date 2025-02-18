@@ -9,7 +9,6 @@ const sections = [
 
 const Navbar = () => {
   const activeSection = useActiveSection(sections.map((s) => s.id));
-
   return (
     <nav className="w-full lg:flex hidden flex-col gap-3 mt-4 ">
       {sections.map((section) => (

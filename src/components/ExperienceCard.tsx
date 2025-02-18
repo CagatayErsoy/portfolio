@@ -15,14 +15,13 @@ const ExperienceCard = ({
 }: ExperienceCardProps) => {
   return (
     <div className="p-4 transition-all duration-300 hover:bg-zinc-800 hover:shadow-lg hover:rounded-lg group flex flex-col gap-3 sm:grid sm:grid-cols-[1fr_3fr]  items-start">
-      {/* Date - Moves to top on mobile */}
       <div className="text-gray-500 text-sm font-semibold transition-all duration-300 group-hover:text-gray-300 sm:order-none order-first">
         {period}
       </div>
 
       {/* Right - Content */}
       <div className="flex flex-col">
-        {/* Company Name (Red Accent on Hover) */}
+        {/* Company Name  */}
         <h3 className="text-lg font-semibold text-foreground transition-all duration-300 group-hover:text-gray-200 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-primary after:transition-all after:duration-300 group-hover:after:w-full">
           {company}
         </h3>

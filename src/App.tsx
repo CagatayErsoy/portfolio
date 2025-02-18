@@ -28,7 +28,7 @@ function App() {
         background: `radial-gradient(circle at ${mouseX}px ${mouseY}px, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.8))`,
       }}
     >
-      {/* Sidebar (Fixed) */}
+      {/* Sidebar  */}
       <div className="lg:w-2/5 sm:w-full  w-full flex flex-col gap-10 lg:fixed relative lg:top-0 left-0 h-full justify-around xs md:py-20 lg:px-[8.5vw] p-10 ">
         <Tittle />
         <Navbar />

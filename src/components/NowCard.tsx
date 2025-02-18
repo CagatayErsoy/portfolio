@@ -29,8 +29,6 @@ const NowCard = ({ name, description, imageUrl, website }: NowCardProps) => {
           </p>
         </div>
       </a>
-
-      {/* Project Info */}
     </div>
   );
 };
